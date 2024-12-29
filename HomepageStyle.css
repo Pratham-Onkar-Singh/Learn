@@ -1,0 +1,19 @@
+:root{
+    --background-color : #F2E0C9;
+    --text-color: #1A1A1A;
+    --bar-color:#C59D5F;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav{
+    display: flex;
+    justify-content: start;
+}
+#dropdown {
+    background-color: var(--background-color);
+    border: 0px solid var(--background-color);
+}
