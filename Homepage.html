@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="HomepageStyle.css">
+    <link rel="stylesheet" href="HomepageStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Learn</title>
-</head>
+  </head>
 
-<body>
-    <nav>
-        <div class="nav title">Learn</div>
+  <body>
+    <div class="nav-bar">
+      <!--This div is The Nav Bar containing the title and the dropdown button and the dispaly toggle  button -->
+      <div class="title">LUNN</div>
+      <div class="dropdown-Btn">Learn<i class="fa fa-angle-down"></i> <i class="fa fa-angle-up"></i></div>
 
-        <div class="nav change-mode">C</div>
-    </nav>
-
-    <div class="description">
-
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+   
+    </div>
     </div>
 
-    <div class="animation">
-        
+    <!-- This is the dropdown div containing the dropdown menu items with topics  -->
+    <div class="dropdown">
+      <div class="dropdown-items">Flex</div>
+      <div class="dropdown-items">Grid</div>
+      <div class="dropdown-items">Position</div>
     </div>
 
+    <div class="description"></div>
 
-</body>
+    <div class="animation"></div>
 
+    <script src="HomepageScript.js"></script>
+  </body>
 </html>
