@@ -71,6 +71,7 @@ for(let i = 0;i < cards.length;i++) {
     }
   })
 }
+
 const dropdownButts = document.querySelectorAll(".dropdown-items");
 for(let i = 0;i < dropdownButts.length;i++) {
   dropdownButts[i].addEventListener("click", function (e) {
@@ -81,6 +82,12 @@ for(let i = 0;i < dropdownButts.length;i++) {
     window.location.href = `${topic}.html`;
   })
 }
+
+const title = document.querySelector(".title");
+title.addEventListener("click",function(){
+  window.location.href="Homepage.html";
+})
+
 
 
 // Typing Animation:
