@@ -1,10 +1,12 @@
 body{
     --play-red-color:rgb(228, 58, 58);
     --play-text-color:beige;
+    --topic-color:#B8B8B8;
 
     &.light{
         --play-red-color:beige;
         --play-text-color:rgb(228, 58, 58);
+        --topic-color:black;
     }
 }
 
@@ -24,6 +26,7 @@ body{
     font-weight: 500;
     font-style: normal;
 }
+
 
 .play_space{
     color: var( --play-text-color);
@@ -62,13 +65,47 @@ body{
 
 .heading_description p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .heading_description span{
     color:rgb(228, 58, 58) ;
 }
 
-ul{
-    list-style-type: circle;
+
+ul, ol {
+    list-style: disc; 
+    padding-left: 20px;
+    margin-left: 20px; 
 }
+
+.content>h2{
+    color: var(--topic-color);
+    font-family: "Playfair Display",serif;
+    font-weight: bold;
+  /* margin-left: 2rem; */
+  font-size: 3rem;
+  margin: 4rem 0rem 2rem 2rem;
+  
+  
+}
+
+.special{
+    color: var(--topic-color);
+    font-weight: bold;
+}
+
+.topic{
+    font-size: 2rem;
+    color: rgb(228, 58, 58);
+}
+
+.content p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.content{
+    width: 95%;
+}
+
