@@ -94,7 +94,7 @@ title.addEventListener("click",function(){
 const learnTextElement = document.querySelector('.learnText i');
 
 const typingAnimation = async (typingSpeed = 200, deleteSpeedLunn = 50, deleteSpeedLearn = 150, pauseTimeBeforeDeleteLunn = 100, pauseTimeBeforeDeleteLearn = 1500) => {
-  const word1 = "Lunn";
+  const word1 = "Learn";
   const word2 = "Learn";
 
   // Function to type a word with a customizable speed
